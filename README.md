@@ -1,10 +1,22 @@
 [image1]: ./images/motor_controller.jpg
 
-# Annex 03 : Motor Controller
+# Annex 03 : Car Chassis
 
-As mentioned in Annex 01 and Annex 02, it is possible to connect motors directly to the pins of either an Arduino or a Raspberry Pi. The big issue with this solution is that the current that you can provide to the motor is limited to the current that the Arduino or the Raspberry Pi can provide and this limits a lot the motors that you can use. More specifically if you need to use a motor that requires higher voltage (9 volts for example), the you need to use a so-called motor controller.
+For this project you need to purchase a four-wheel car chassis with rear wheel propulsion and front wheel steering mechanism.
 
-You can think of a motor controller as a button that can close or open the circuit and between the motor and an external battery. The activation of the button can be controller through an Arduino for example.
+Traditional four-wheel car chassis that you can find in the internet have a four-motor mechanism and steering is achieved by activating the two motors on either side of the car.
+
+A car chassis with a front wheel steering mechanism allows you to steer the two front wheels like in a real car. By learning how t o use this car chassis you will be able to:
+
+1. use all techniques that you will learn or have already learned in the CarND courses;
+2. familiarize yourself with the mechanisms and issues that correspond to real-world problems.
+
+The wheel system is well designed. There are two bearings on either side of the wheel that make the system very efficient and resistance free.
+
+The motor that is provided with the kit is a JGA25-370. The nice thing is that the motor is connected through a gear reduction mechanism that is extremely simple to mount. the motor and the gears are made of metal and they are very resistant. The issue I found with this car chassis is that it is a bit loud when running at full speed.
+
+The steering servo is attached to the front of the chassis through two L-shaped metal supports. The servo drives the steering angle of the front wheels through two adjustable bars, one of which connects both front wheels and the other connect to one of the two wheels.
+
 
 ## 01. The L298N Motor Controller
 
