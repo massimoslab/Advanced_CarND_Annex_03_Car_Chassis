@@ -18,7 +18,7 @@ The motor that is provided with the kit is a JGA25-370. The nice thing is that t
 The steering servo is attached to the front of the chassis through two L-shaped metal supports. The servo drives the steering angle of the front wheels through two adjustable bars, one of which connects both front wheels and the other connect to one of the two wheels.
 
 
-## 01. The L298N Motor Controller
+## 01. Rear mechanism assembly
 
 The L298N motor controller is a commonly used motor controller, also called H-bridge motor controller. The below image shows how a typical L298N motor controller looks like:
 
@@ -26,7 +26,7 @@ The L298N motor controller is a commonly used motor controller, also called H-br
 
 The blue connectors are used to connect the external battery and the motor, whereas the black pins are used to connect the Arduino.
 
-## 02. Arduino versus Raspberry Pi
+## 02. Front mechanism assembly
 
 Please notice that the H-bridge could have also been connected to a Raspberry Pi. The drawbacks of using the Raspberry Pi is that you only have one so-called PWM pin. A PWM pin is a pin that allows you to define output values in a certain range and not only output values of type 0 and 1. If a motor needs to be controlled with discrete values between full power and no power you need a PWM output. The other issue is that if used without external hardware you might experience jittering of the servo.
 
