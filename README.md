@@ -41,8 +41,8 @@ An Arduino on the other hand has more than one PWM and is extremely stable when 
 
 
 ## 03. Purchases
-The Arduino can be purchased from the following link:
-[Purchase an Arduino here](https://store.arduino.cc/)
+The car chassis can be purchased on the internet. I have purchased mine from ebay:
+[Purchase a car chassis here](https://store.arduino.cc/)
 
 ## Author
 
