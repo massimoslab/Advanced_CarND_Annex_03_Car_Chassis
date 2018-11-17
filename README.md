@@ -1,9 +1,11 @@
 [image1]: ./images/sdc_1.jpg
-[image2]: ./images/sdc_10.jpg
-[image3]: ./images/sdc_11.jpg
+[image2]: ./images/sdc_7.jpg
+[image3]: ./images/sdc_15.jpg
 [image4]: ./images/sdc_12.jpg
 [image5]: ./images/sdc_14.jpg
 [image6]: ./images/sdc_8.jpg
+[image7]: ./images/sdc_9.jpg
+[image8]: ./images/sdc_16.jpg
 
 # Annex 03 : Car Chassis
 
@@ -26,7 +28,7 @@ The wheel system is well designed. There are two bearings on either side of the 
 
 The motor is a 380 high-speed motor which can achieve significant speed. The rear mechanism consists of a differential mechanism mounted within a pre-assembled gear box. The biggest advantage of the differential mechanism is that when turning the internal wheel can have a different speed from the external wheel.
 
-![alt text][image4]
+![alt text][image3]
 
 The rear gear reduction mechanism that is extremely simple to mount. The motor and the gears are made of metal and they are very resistant. The issue I found with this car chassis is that it is a bit loud when running at full speed.
 
@@ -35,26 +37,30 @@ The rear gear reduction mechanism that is extremely simple to mount. The motor a
 The servo is a MR996 servo system. The steering servo is attached to the front of the chassis through two L-shaped metal supports. The servo drives the steering angle of the front wheels through two adjustable bars, one of which connects both front wheels and the other connect to one of the two wheels.
 
 ![alt text][image5]
+
+## 03. Car chassis assembly
+
+Start by assembling the rear mechanism. Firstly fix the rear gear box to the metal base by using the appropriate screws. Ensure that no dirt or small debris do not enter the gear mechanism from the bottom. Once the mechanism has been fixed, connect the metal bar suspensions with the two rear bearings holders. Finally assemble the wheels and fix them with the appropriate bolts.
+
+![alt text][image4]
+
+As a second step, assemble the front steering mechanism. First of all fix the servo with the two provided L-shaped bars to the metal base as shown below without fixing the bar, which will be fixed later.
+
 ![alt text][image6]
 
-## 03. Car chassis kit
-
-The packaging of the car chassis contains mainly metal parts which ensures durability. The ratio quality vs prices is very good. Below is an image of the content of the cars chassis kit that you will receive.
+Now, fix the bearing housing to the two front wheels and fix the wheel with the appropriate bolt.
 
 ![alt text][image2]
 
-The actual chassis is also of very resistant metal, compared to many other car chassis that you can find online which are made of plastic:
+Once the two front wheel have been fixed to the bearing housing, you can connect them to the metal base as shown in the image below:
 
-![alt text][image3]
+![alt text][image7]
 
-## 04. Car chassis assembly
+Finally, you can connect the adjustable plastic-metal bars to one of the bearing housing.
 
-Please notice that the H-bridge could have also been connected to a Raspberry Pi. The drawbacks of using the Raspberry Pi is that you only have one so-called PWM pin. A PWM pin is a pin that allows you to define output values in a certain range and not only output values of type 0 and 1. If a motor needs to be controlled with discrete values between full power and no power you need a PWM output. The other issue is that if used without external hardware you might experience jittering of the servo.
+![alt text][image8]
 
-An Arduino on the other hand has more than one PWM and is extremely stable when controlling the L298N.
-
-
-## 05. Purchases
+## 04. Purchases
 The car chassis can be purchased on the internet. I have purchased mine from ebay:
 [Purchase a car chassis here](https://store.arduino.cc/)
 
