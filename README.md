@@ -3,6 +3,7 @@
 [image3]: ./images/sdc_11.jpg
 [image4]: ./images/sdc_12.jpg
 [image5]: ./images/sdc_14.jpg
+[image6]: ./images/sdc_8.jpg
 
 # Annex 03 : Car Chassis
 
@@ -23,7 +24,7 @@ The wheel system is well designed. There are two bearings on either side of the 
 
 ## 01. The motor
 
-The motor is a 385 high-speed motor which can achieve significant speed. The rear mechanism consists of a differential mechanism mounted within a pre-assembled gear box. The biggest advantage of the differential mechanism is that when turning the internal wheel can have a different speed from the external wheel.
+The motor is a 380 high-speed motor which can achieve significant speed. The rear mechanism consists of a differential mechanism mounted within a pre-assembled gear box. The biggest advantage of the differential mechanism is that when turning the internal wheel can have a different speed from the external wheel.
 
 ![alt text][image4]
 
@@ -31,11 +32,10 @@ The rear gear reduction mechanism that is extremely simple to mount. The motor a
 
 ## 02. The servo
 
-The servo is a MR996 servo system.
-
-The steering servo is attached to the front of the chassis through two L-shaped metal supports. The servo drives the steering angle of the front wheels through two adjustable bars, one of which connects both front wheels and the other connect to one of the two wheels.
+The servo is a MR996 servo system. The steering servo is attached to the front of the chassis through two L-shaped metal supports. The servo drives the steering angle of the front wheels through two adjustable bars, one of which connects both front wheels and the other connect to one of the two wheels.
 
 ![alt text][image5]
+![alt text][image6]
 
 ## 03. Car chassis kit
 
